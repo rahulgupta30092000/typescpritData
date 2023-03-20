@@ -6,8 +6,8 @@ interface Employee {
     LastName: string;
     Address: string;
     Salary: number;
-    FullName:string;
-    employeeData:any[];
+   
+    
     
 
 }
@@ -20,13 +20,17 @@ let employeeData: any[] = [
 ]
 
 class Details implements Employee  {
+    
+    constructor(){
+
+    }
     ID: number;
     FirstName: string;
     LastName: string;
     Address: string;
     Salary: number;
-    FullName:string;
-    employeeData:any[];
+   
+    
     
     
     joinName() {
@@ -73,9 +77,22 @@ class Details implements Employee  {
 
 
 const detail = new Details();
-detail.PF();
-detail.splitAddress();
 detail.joinName();
+detail.splitAddress();
+detail.PF();
 
 
+
+class EmployeeDetails implements Employee{
+    constructor(){
+
+    }
+    ID: number;
+    FirstName: string;
+    LastName: string;
+    Address: string;
+    Salary: number;
+    
+
+}
 

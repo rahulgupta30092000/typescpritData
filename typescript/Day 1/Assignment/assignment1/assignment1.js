@@ -11,12 +11,18 @@ function searchById(k) {
             console.log(employeeData[i]);
             break;
         }
+        else {
+            console.log("Invalid Id");
+        }
     }
 }
-searchById(105);
+searchById(108);
 function searchByIndex(p) {
     if (employeeData[p]) {
         console.log(employeeData[p]);
+    }
+    else {
+        console.log("Invalid Index");
     }
 }
 searchByIndex(2);

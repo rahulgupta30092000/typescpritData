@@ -36,6 +36,6 @@ var Details = /** @class */ (function () {
     return Details;
 }());
 var detail = new Details();
-detail.PF();
-detail.splitAddress();
 detail.joinName();
+detail.splitAddress();
+detail.PF();
